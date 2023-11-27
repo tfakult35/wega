@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="bootstrap1/css/bootstrap.min.css">
+<link href="vvstyle.css" rel="stylesheet">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>The Vampire Wiki</title>
+</head>
+
+
+<body>
+
+    <script>
+        // Function to check if the current time is 3 AM
+        function isThreeAM() {
+          const now = new Date();
+          if (now.getHours() === 3) return true;
+          return false;
+          
+        }
+      
+        function restrictAccess() {
+          if (isThreeAM()) {
+            alert("Abnormally levels demonic activity detected! Please try again at a different time!");
+            window.location.href = "about:blank";
+            
+          }
+        }
+      
+        restrictAccess();
+      </script>
+
+<header>
+<h1> <img src="img/logo.png" alt="logo" width="5%"/> THE VAMPIRE WIKI </h1>
+
+</header>
+
+<nav>
+    <a href="index.html">Introduction</a>
+    ❖
+    <a href="typesofv.html">Encyclopedia</a>
+    ❖
+    <a href="connections.html">Report a Vampire</a>
+
+</nav>
+
+
+<div class="container-fluid">
+<div class="row">
+
+    <div class="col-sm-6">
+    <img  src="img/Hunedoara_castle.jpg" alt="logo" width="750px">
+    </div>
+
+    <div class="col-sm-6">
+    <section>
+        <h2>Who are we?</h2>
+        <br>
+        <p>  > We are a diverse society of ethnologists, zoologists, historians and 
+            paranormal researchers specialized in the study of global Vampirism.</p>
+        <p>  > We believe the field of modern Vampyrology has been unjustly and systematically ostracized, 
+            its pioneers excised from the scientific body, their life's work reduced 
+            to a dozen moldy books hidden away in rotting bookshelfs of a few obscure libraries.
+            Their legacy (if there even remains one) forever jeered on by men, who claim alliegence to
+            Truth alone, yet are too blind to see anything which can not contort to their shallow materialistic
+            worldview.  
+        </p>
+        <p>  > As the question of Vampirism has been rapidly increasing in relevance and urgency, we hope to enlighten
+            as many as can be enlightened. The rest can burn in the hell they continue to sustain. We have long become
+            apathethic to those whose hearts are closed to the Truth, on whom the Spirit of the Truth can not perch.    
+        </p>  
+        <p>  > On this site you can find the synthesized research of ours and of our predecessors. We understand that
+            the Truth, no matter the dreadful feelings it induces within a man, will always be freeing, purifying, 
+            deifying. Let this resource be a blazing hearth for you in this misty cold barren world.
+            
+        </p> 
+        <br>
+        <br>
+    
+    
+    </section>
+</div>  
+
+</div>
+
+</div>
+
+
+
+</div>
+
+<footer>
+<p>Site create by the Vampyrology Research Society (VRS) 2023</p>
+</footer>
+
+    
+</body>
+
+
+
+</html>
